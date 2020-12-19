@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.0.105:3306/music?characterEncoding=UTF-8
+    username: root
+    password: root
+  redis:
+    host: 192.168.0.105
+    port: 6385
+
+server:
+  port: 9999
